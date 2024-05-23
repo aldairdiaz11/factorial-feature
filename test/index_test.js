@@ -25,6 +25,16 @@ describe("Calculate", () => {
             // verification
             assert.strictEqual(result, expected);
         });
+        it("returns 1 when you pass in 0", () => {
+            // Setup
+            const expected = 1;
+            const input = 0;
 
+            // exercise
+            const result = Calculate.factorial(input);
+
+            // verification
+            assert.strictEqual(expected, result);
+        });
     })
 })

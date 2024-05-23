@@ -13,7 +13,18 @@ describe("Calculate", () => {
 
             // verification
             assert.strictEqual(result, expected);
-        })
+        });
+        it("returns the factorial of n", () => {
+            // Setup
+            const expected = 5040;
+            const input = 7;
+
+            // exercise
+            const result = Calculate.factorial(input);
+
+            // verification
+            assert.strictEqual(result, expected);
+        });
 
     })
 })

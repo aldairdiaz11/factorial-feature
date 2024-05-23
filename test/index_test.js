@@ -10,7 +10,7 @@ describe("Calculate", () => {
             // exercise
 
             // verification
-            assert.strictEqual(Calculate.factorial(5), 125);
+            assert.strictEqual(Calculate.factorial(5), 120);
         })
 
     })

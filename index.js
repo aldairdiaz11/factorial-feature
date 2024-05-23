@@ -1,8 +1,11 @@
 const Calculate = {
     factorial (n) {
-        return 120;
+        result = 1;
+        for(i=1; i < n; i++) {
+            result += result * i;
+        }
+        return result;
     }
-
 };
 
 module.exports = Calculate;
